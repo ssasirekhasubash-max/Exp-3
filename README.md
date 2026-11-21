@@ -98,33 +98,33 @@ Pandas.
 
 ## output
 
-Descriptive Statistics:
-            Age        Salary  Purchased
-count  10.00000     10.000000  10.000000
-mean   39.00000  33500.000000   0.600000
-std    13.15717  13786.063817   0.516398
-min    22.00000  15000.000000   0.000000
-25%    28.50000  22750.000000   0.000000
-50%    37.50000  32500.000000   1.000000
-75%    48.75000  43750.000000   1.000000
-max    60.00000  55000.000000   1.000000
-Accuracy: 1.0
-Confusion Matrix:
-[[1 0]
- [0 1]]
-Classification Report:
-              precision    recall  f1-score   support
-
-           0       1.00      1.00      1.00         1
-           1       1.00      1.00      1.00         1
-
-    accuracy                           1.00         2
-   macro avg       1.00      1.00      1.00         2
-weighted avg       1.00      1.00      1.00         2
-
-Predicted Probabilities:
-[[0.03460423 0.96539577]
- [0.77986333 0.22013667]]
+    Descriptive Statistics:
+                Age        Salary  Purchased
+    count  10.00000     10.000000  10.000000
+    mean   39.00000  33500.000000   0.600000
+    std    13.15717  13786.063817   0.516398
+    min    22.00000  15000.000000   0.000000
+    25%    28.50000  22750.000000   0.000000
+    50%    37.50000  32500.000000   1.000000
+    75%    48.75000  43750.000000   1.000000
+    max    60.00000  55000.000000   1.000000
+    Accuracy: 1.0
+    Confusion Matrix:
+    [[1 0]
+     [0 1]]
+    Classification Report:
+                  precision    recall  f1-score   support
+    
+               0       1.00      1.00      1.00         1
+               1       1.00      1.00      1.00         1
+    
+        accuracy                           1.00         2
+       macro avg       1.00      1.00      1.00         2
+    weighted avg       1.00      1.00      1.00         2
+    
+    Predicted Probabilities:
+    [[0.03460423 0.96539577]
+     [0.77986333 0.22013667]]
 
 ## Result
 Thus, descriptive statistics and probability-based classification were performed using NumPy, Pandas and Logistic Regression. The model was evaluated using accuracy, confusion matrix, classification report and predicted probabilities.
